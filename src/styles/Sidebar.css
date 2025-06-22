@@ -1,0 +1,25 @@
+.sidebar {
+  width: 200px;
+  background: #282c34;
+  color: white;
+  min-height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+  color: #61dafb;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  font-weight: bold;
+  color: #61dafb;
+}
