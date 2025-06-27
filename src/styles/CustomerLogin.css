@@ -1,0 +1,58 @@
+.customer-login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.customer-login-container:hover {
+  transform: translateY(-5px);
+}
+
+.customer-login-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2d3748;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.customer-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.customer-login-input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.customer-login-input:focus {
+  border-color: #3182ce;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.3);
+  outline: none;
+}
+
+.customer-login-button {
+  background-color: #3182ce;
+  color: #ffffff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.customer-login-button:hover {
+  background-color: #2b6cb0;
+  transform: scale(1.02);
+}

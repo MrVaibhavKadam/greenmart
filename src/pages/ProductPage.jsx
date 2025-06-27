@@ -14,7 +14,7 @@ const ProductPage = () => {
   const handleAddToCart = (product) => {
     const cartData = {
       product_id: product.id,
-      customer_id: 1, // ⛔ Replace with logged-in customer later
+      customer_id: 1,
       quantity: 1,
       discount_price: product.price,
       mrp_price: product.mrp_price,

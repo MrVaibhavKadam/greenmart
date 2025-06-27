@@ -1,11 +1,12 @@
 import axios from "axios";
+import { getToken } from "../utils/auth";
 
 const axiosInstance = axios.create({
   baseURL: "http://localhost:9090/api",
 });
 
 axiosInstance.interceptors.request.use((config) => {
-  const token = localStorage.getItem("adminToken");
+  const token = getToken();
   if (token) {
     config.headers.Authorization = `Bearer ${token}`;
   }

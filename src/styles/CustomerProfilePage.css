@@ -1,0 +1,51 @@
+.profile-container {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 24px;
+}
+
+.profile-title {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile-card {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  line-height: 1.8;
+}
+
+.profile-card input {
+  display: block;
+  width: 100%;
+  margin: 6px 0 16px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.profile-btn {
+  background: #16a34a;
+  color: white;
+  padding: 8px 16px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-btn.cancel {
+  background: #ccc;
+  color: black;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}

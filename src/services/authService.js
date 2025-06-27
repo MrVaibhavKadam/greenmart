@@ -7,5 +7,5 @@ export const login = async (email, password) => {
     email,
     password,
   });
-  return response.data; // contains {token, name, email}
+  return response.data;
 };
